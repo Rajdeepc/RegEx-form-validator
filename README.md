@@ -45,11 +45,11 @@ npm start
 
 ### Valid Form
 
-[valid](valid.png)
+![valid](valid.png)
 
 ### InValid Form
 
-[valid](validfailed.png)
+![invalid](validfailed.png)
 
 
 ### License
