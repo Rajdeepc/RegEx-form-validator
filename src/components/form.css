@@ -1,0 +1,44 @@
+form {
+    width: 400px;
+    padding: 40px;
+    text-align: left;
+    margin: 0 auto
+}
+
+form input {
+    width: 100%;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ccc;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+input.valid+p {
+    color: green
+}
+
+input.invalid+p {
+    color: red
+}
+
+input + p {
+    font-size: 14px;
+    opacity: 0;
+    height:0;
+    color: red
+}
+
+input.valid {
+    border-color: green
+}
+
+input.invalid {
+    border-color:red
+}
+
+input.invalid + p {
+    opacity: 1;
+    height:auto;
+}
