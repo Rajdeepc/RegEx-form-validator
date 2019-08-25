@@ -2,6 +2,9 @@
 
 This project demonstrates form validation for username, email, password, phone, slug
 
+### See it Live
+http://react-form-observation.surge.sh/
+
 ### Getting Started
 To get you started you can simply clone the repository:
 
